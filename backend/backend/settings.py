@@ -66,7 +66,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': '/data/db.sqlite3',
 #     }
-# } 
+# }
 
 # Настройки датабазес для вольюма PostgreSQL
 DATABASES = {
@@ -81,8 +81,6 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT', 5432)
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
